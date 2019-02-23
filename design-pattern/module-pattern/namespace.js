@@ -48,3 +48,17 @@ for( i in man ){
     }
 }
 
+
+var global_var = 3;
+
+global_novar = 2;
+(function(){
+    global_fromfunc = 3;
+}());
+
+// delete 시도 
+console.log( delete global_var );  
+console.log( delete global_novar );
+console.log( delete global_fromfunc );
+
+
