@@ -62,3 +62,8 @@ console.log( delete global_novar );
 console.log( delete global_fromfunc );
 
 
+console.log( typeof global_var );
+console.log( typeof global_novar);
+console.log( typeof global_fromfunc );
+
+
