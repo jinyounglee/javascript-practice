@@ -35,7 +35,7 @@ function *limit(l, iter) {
         if( a === l ) return;
     }
 }
-
+// 
 function *infinity(i = 0) {
     while(true) yield i+=1;
 }
@@ -73,5 +73,4 @@ const [a, b, ...rest] = odds2(30);
 console.log( a );
 console.log( b );
 console.log( rest );
-
 //
